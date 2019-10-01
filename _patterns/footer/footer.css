@@ -1,0 +1,11 @@
+footer {
+  background-color: var(--color-primary-light);
+}
+
+li {
+  display: inline-block;
+}
+
+.footer-nav {
+  display: inline;
+}
