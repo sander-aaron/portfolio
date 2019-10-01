@@ -1,3 +1,22 @@
 permalink: pretty
 
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Aaron Sander"
+  description: |
+    Aaron Sander's portfolio website.
+  font_url: "https://fonts.googleapis.com/css?family=Lora:400,400i,700|Raleway:400,500,600,700,800,900&display=swap"
+  colors:
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-primary-light"
+    rationales:
+      typefaces.primary: |
+        description
+      typefaces.secondary: |
+        description
+      colors.primary: |
+        description
+      colors.secondary: |
+        description
