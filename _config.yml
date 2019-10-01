@@ -13,7 +13,7 @@ patternbot:
       brand.logos: "--color-primary-light"
     rationales:
       typefaces.primary: |
-        description
+        Raleway was selected as the primary typeface
       typefaces.secondary: |
         description
       colors.primary: |
