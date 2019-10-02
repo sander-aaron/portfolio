@@ -12,6 +12,20 @@
   background-repeat: no-repeat;
 }
 
+.saas-bg {
+  background-image: url("../../images/third.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tech-bg {
+  background-image: url("../../images/fouth.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .card-link {
   text-decoration: none;
 }
