@@ -175,3 +175,7 @@ caption {
   color: var(--color-primary);
   font-weight: 500;
 }
+
+.copyright {
+  font-family: var(--font-primary);
+}
