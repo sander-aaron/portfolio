@@ -1,0 +1,25 @@
+.banner {
+  background-image: url("../images/bannerbg.svg");
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.banner-content {
+  background-color: var(--color-primary-light);
+  position: absolute;
+  top: 8%;
+  right: 0%;
+}
+
+@media only screen and (min-width: 400px) {
+  .banner-content {
+    top: 25%;
+    right: 10%;
+  }
+
+  .banner {
+    background-position: right center;
+  }
+}

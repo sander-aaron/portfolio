@@ -16,9 +16,3 @@ li:hover a {
   background-color: var(--color-yellow);
   color: var(--color-primary);
 }
-
-li a:active {
-  color: var(--color-blue);
-  text-decoration: underline;
-  background-color: rgba(255, 0, 0, 0);
-}
