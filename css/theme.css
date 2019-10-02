@@ -4,17 +4,17 @@
   --color-yellow: #ffdc00;
   --color-blue: #0023ff;
 
-  --font-primary: raleway, sans-serif;
+  --font-primary: Raleway, sans-serif;
   --font-secondary: Lora, serif;
 }
 
 html {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 h1 {
   font-family: var(--font-primary);
-  color: var(--color-primary);
+  color: var(--color-blue);
   font-weight: 800;
 }
 
@@ -72,7 +72,7 @@ a {
 }
 
 blockquote {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-primary);
   font-weight: 400;
 }
@@ -132,7 +132,7 @@ i {
 b {
   font-family: var(--font-primary);
   color: var(--color-primary);
-  font-weight: 500;
+  font-weight: bold;
 }
 
 mark {
@@ -143,7 +143,7 @@ mark {
 }
 
 q {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-primary);
   font-weight: 500;
 }
