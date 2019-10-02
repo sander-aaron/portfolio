@@ -1,3 +1,19 @@
 title: "Banners"
 description: |
   These banners are for the top of the page and welcome people into the site or the project.
+
+patterns:
+  homebanner:
+    title: "Home Page Banner"
+    description: |
+      Displays my welcome to the site.
+  contentbanner:
+    title: "Content Page Banners"
+    description: |
+      Displays the title of my projects.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.contentbanner[2]"
+          type: Content Banner

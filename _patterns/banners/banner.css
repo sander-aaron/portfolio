@@ -15,6 +15,17 @@
 
 @media only screen and (min-width: 400px) {
   .banner-content {
+    top: 12%;
+    right: 10%;
+  }
+
+  .banner {
+    background-position: right center;
+  }
+}
+
+@media only screen and (min-width: 432px) {
+  .banner-content {
     top: 25%;
     right: 10%;
   }
