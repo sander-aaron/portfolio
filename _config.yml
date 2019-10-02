@@ -13,10 +13,10 @@ patternbot:
       brand.logos: "--color-primary-light"
     rationales:
       typefaces.primary: |
-        Raleway was selected as the primary typeface
+        Raleway was selected as the primary typeface because it is bold and has a lot of choices in font weight and has a lot of personality.
       typefaces.secondary: |
-        description
+        Lora was selected as the secondary typeface because it compliments the weight of Raleway.
       colors.primary: |
-        description
+        Having black and white as the primary colours keeps a clean feel and gives a good base to add in the accent colours.
       colors.secondary: |
-        description
+        Yellow and blue were chose because there are bright but complimentary colours.

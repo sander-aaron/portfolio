@@ -1,6 +1,21 @@
-.bg-img {
+.ecom-bg {
   background-image: url("../../images/first.svg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.nfp-bg {
+  background-image: url("../../images/second.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.preview {
+  color: var(--color-primary);
 }
