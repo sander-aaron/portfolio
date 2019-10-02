@@ -20,3 +20,5 @@ patternbot:
         Having black and white as the primary colours keeps a clean feel and gives a good base to add in the accent colours.
       colors.secondary: |
         Yellow and blue were chose because there are bright but complimentary colours.
+collections:
+  previews:
