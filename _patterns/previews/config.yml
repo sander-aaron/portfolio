@@ -8,5 +8,5 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.previews[2]"
+          source: "site.previews[0]"
           type: Preview

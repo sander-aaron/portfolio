@@ -1,3 +1,7 @@
+.box-shadow {
+  box-shadow: 5px 10px 5px rgba(107, 98, 52, 0.75);
+}
+
 .ecom-bg {
   background-image: url("../../images/first.svg");
   background-position: center center;
@@ -20,7 +24,7 @@
 }
 
 .tech-bg {
-  background-image: url("../../images/fouth.svg");
+  background-image: url("../../images/fourth.svg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
