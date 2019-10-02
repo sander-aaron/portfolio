@@ -9,11 +9,11 @@
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 h1 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-primary);
   font-weight: 800;
 }
