@@ -1,0 +1,14 @@
+.cont {
+  background-image: url("../images/continue.svg");
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.arrows {
+  color: var(--color-blue);
+}
+
+.cont-a {
+  text-decoration: none;
+}
