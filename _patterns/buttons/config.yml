@@ -1,0 +1,15 @@
+title: "Buttons"
+description: |
+  Used to link to functioal sites or the pattern library.
+
+patterns:
+  site:
+    title: "Home Page Banner"
+    description: |
+      Displays my welcome to the site.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.buttons[2]"
+          type: Button
