@@ -1,6 +1,6 @@
 title: "Buttons"
 description: |
-  Used to link to functioal sites or the pattern library.
+  Used to link to functional sites or the pattern library.
 
 patterns:
   site:
@@ -11,5 +11,5 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.buttons[0]"
+          source: "site.buttons[3]"
           type: Button
