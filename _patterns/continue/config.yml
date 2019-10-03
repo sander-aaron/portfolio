@@ -1,0 +1,13 @@
+title: "Continue"
+description: |
+  These are at the bottom of the pages and bring people further into the site.
+
+patterns:
+  more:
+    title: "More"
+    description: |
+      Displayed on the homepage, brings the user to random stuff, not web dev projects.
+  next:
+    title: "Next"
+    description: |
+      Displayed on the project page, brings the user to the next project.
