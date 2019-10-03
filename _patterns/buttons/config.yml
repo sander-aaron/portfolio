@@ -4,12 +4,12 @@ description: |
 
 patterns:
   site:
-    title: "Home Page Banner"
+    title: "Links Button"
     description: |
-      Displays my welcome to the site.
+      Links to Pages
     fields:
       - name: data
         type: object
         data:
-          source: "site.buttons[2]"
+          source: "site.buttons[0]"
           type: Button

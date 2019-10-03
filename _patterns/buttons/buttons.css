@@ -1,0 +1,16 @@
+.btn {
+  border-radius: 50px;
+  border-color: var(--color-blue);
+  background-color: var(--color-blue);
+}
+
+.btn:hover {
+  background-color: #0019b3;
+  border-color: #0019b3;
+}
+
+.btn-a {
+  font-weight: 500;
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
