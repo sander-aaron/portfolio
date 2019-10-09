@@ -48,6 +48,14 @@ h6 {
   font-weight: 700;
 }
 
+p {
+  font-family: var(--font-primary);
+}
+
+.overview {
+  font-family: var(--font-secondary);
+}
+
 ul {
   font-family: var(--font-secondary);
   color: var(--color-primary);

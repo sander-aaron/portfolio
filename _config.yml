@@ -11,21 +11,22 @@ patternbot:
     accent: "--color-primary"
     patterns:
       brand.logos: "--color-primary-light"
-    rationales:
-      typefaces.primary: |
-        Lora was selected as the primary typeface because it compliments the weight of Raleway. This will be used for body copy.
-      typefaces.secondary: |
-        Raleway was selected as the secondary typeface because it is bold and has a lot of choices in font weight and has a lot of personality. This will be used for headings.
-      colors.primary: |
-        Having black and white as the primary colours keeps a clean feel and gives a good base to add in the accent colours.
-      colors.secondary: |
-        Yellow and blue were chose because there are bright but complimentary colours.
-layouts:
-  default: |
-    This is the layout to be used on all pages.
-  piece: |
-    This is the layout to be used on every portfolio piece page. It will display all information about the portfolio piece once a project has been selected.
+  rationales:
+    typefaces.primary: |
+      Lora was selected as the primary typeface because it compliments the weight of Raleway. This will be used for body copy.
+    typefaces.secondary: |
+      Raleway was selected as the secondary typeface because it is bold and has a lot of choices in font weight and has a lot of personality. This will be used for headings.
+    colors.primary: |
+      Having black and white as the primary colours keeps a clean feel and gives a good base to add in the accent colours.
+    colors.secondary: |
+      Yellow and blue were chose because there are bright but complimentary colours.
+  layouts:
+    default: |
+      This is the layout to be used on all pages.
+    piece: |
+      This is the layout to be used on every portfolio piece page. It will display all information about the portfolio piece once a project has been selected.
 collections:
   previews:
-  contentbanner:
+  work:
+    output: true
   buttons:

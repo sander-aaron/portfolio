@@ -15,5 +15,5 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.contentbanner[2]"
+          source: "site.work[2]"
           type: Content Banner
