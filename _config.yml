@@ -20,6 +20,11 @@ patternbot:
         Having black and white as the primary colours keeps a clean feel and gives a good base to add in the accent colours.
       colors.secondary: |
         Yellow and blue were chose because there are bright but complimentary colours.
+layouts:
+  default: |
+    This is the layout to be used on all pages.
+  piece: |
+    This is the layout to be used on every portfolio piece page. It will display all information about the portfolio piece once a project has been selected.
 collections:
   previews:
   contentbanner:
