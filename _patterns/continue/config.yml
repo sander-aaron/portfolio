@@ -11,3 +11,7 @@ patterns:
     title: "Next"
     description: |
       Displayed on the project page, brings the user to the next project.
+  back:
+    title: "Back"
+    description: |
+      Displayed on the random project page, brings the user back to the homepages "works" section.
