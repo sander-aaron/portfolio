@@ -1,4 +1,32 @@
 ---
+layout: piece
 name: "Not for Profit Website"
 subtitle: "Freedom Otter Rescue"
+show_content_banner: true
+overview: |
+  Provide an “update” for the website for the Freedom Dog Rescue. We were tasked with finding a “bad” website or one in need of a revamp and update it. As well, we were told to be creative with our animal picks."
+setupimg: "otter_setup.png"
+research: "Add in research opening"
+target: "Anyone who would be interested in fostering an otter and give it a loving family. As otters are an uncommon household pet, they need lots of attention and care, we are looking for people who are willing to have the commitment of an otter. The target of this website would already be interested in otters and know a lot about them as they would be looking to foster, they would also be an animal lover who is interested in otters or maybe just general public who are looking for a non-profit organization to give donations to animals in the need of a foster home."
+goal: "The goal of this website is to convince people who are looking at it to become a foster to help the otters."
+urban: "Dog Tales Rescue and Sanctuary"
+abouttitle: "About"
+about: "Dog Tales was founded in 2014 by an animal-loving husband and wife team - Rob and Danielle. Both had been involved in rescue for years before finally deciding that the best way to help animals in need was to open a rescue of their own."
+audiencetitle: "Target Audience"
+audience: "Adults who are looking to rescue a dog."
+strengthstitle: "Strengths"
+strengths: "The site has a lot of picture which catch the eyes of the user (FINISH)"
+weaknessestitle: "Weaknesses"
+weaknesses: "Put in weaknesses"
+visual: "Write about the visual design"
+type: "Write about the type choice"
+type1: "otter-font1.png"
+font1alt: "Montserrat Regular"
+type2: "otter-font2.png"
+font2alt: "Montserrat Bold"
+colour: "Write about the colour choices"
+colours: "otter_colours.png"
+together: "Write the bringing it all together paragraph"
+nextsteps: "Write next steps"
+computer: "otter_computer.png"
 ---

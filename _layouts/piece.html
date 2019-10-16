@@ -3,48 +3,70 @@ layout: default
 ---
 <div class="max-length">
   <h2>Overview</h2>
-  <p class="overview mega">{{include.data.overview}}</p>
-  <p class="overview mega">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p class="overview mega">{{page.overview}}</p>
   <div class="grid text-center">
-    <span class="unit xs-1 s-1 m-1-2 l-1-2">{% pattern buttons/site data=Button %}</span>
-    <span class="unit xs-1 s-1 m-1-2 l-1-2">{% pattern buttons/site data=Button %}</span>
+    <span class="unit xs-1 s-1 m-1-2 l-1-2">
+      {% assign btn_data=site.buttons[0] %}
+      {% pattern buttons/site data=btn_data %}
+    </span>
+    <span class="unit xs-1 s-1 m-1-2 l-1-2">
+      {% assign btn_data=site.buttons[1] %}
+      {% pattern buttons/site data=btn_data %}
+    </span>
   </div>
 </div>
 <div class="wrapper">
-  <img class="img-flex" src="/images/mushroomboy_setup.png" alt="">
+  <img class="img-flex" src="/images/{{page.setupimg}}" alt="">
 </div>
 <div class="max-length">
   <h2>Process</h2>
   <h3>Research</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>{{page.research}}</p>
+  <h4>Target Audience</h4>
+  <p>{{page.target}}</p>
 </div>
+{% if page.firstpersona %}
 <div class="wrapper grid">
-  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/mushroomboy_persona1.png" alt="">
-  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/mushroomboy_persona2.png" alt="">
+  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.firstpersona}}" alt="">
+  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.secondpersona}}" alt="">
 </div>
+{% endif %}
 <div class="max-length">
-  <p>Description of personas :) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <h3>Visual Design</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <h3>Website Goals</h3>
+  <p>{{page.goal}}</p>
+  {% if page.urban %}
+  <h3>Competitive Analysis</h3>
+  <h4>{{page.urban}}</h4>
+  <h5>{{page.abouttitle}}</h5>
+  <p>{{page.about}}</p>
+  <h5>{{page.audiencetitle}}</h5>
+  <p>{{page.audience}}</p>
+  <h5>{{page.strengthstitle}}</h5>
+  <p>{{page.strengths}}</p>
+  <h5>{{page.weaknessestitle}}</h5>
+  <p>{{page.weaknesses}}</p>
+  {% endif %}
+  <h4>Visual Design</h4>
+  <p>{{page.visual}}</p>
   <h3>Typeface</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>{{page.type}}</p>
   <div class="grid push-2">
     <div class="unit xs-1 s-1 m-1-2 l-1-2 mb-font1 text-center">
-      <img class="img-flex island-1-4" src="/images/mushroomboy-font1.png" alt="Display of Futura">
+      <img class="img-flex island-1-4" src="/images/{{page.type1}}" alt="Display of {{page.font2alt}}">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 mb-font2 text-center">
-      <img class="img-flex island-1-4" src="/images/mushroomboy-font2.png" alt="Display of Prater Block Pro">
+      <img class="img-flex island-1-4" src="/images/{{page.type2}}" alt="Display of {{page.font2alt}}">
     </div>
   </div>
   <h3>Colour Palette</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <img class="img-flex" src="/images/mushroomboy_colours.png" alt="">
+  <p>{{page.colour}}</p>
+  <img class="img-flex" src="/images/{{page.colours}}" alt="">
   <h3>Bringing it all together</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>{{page.together}}</p>
   <h3>Next Steps</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>{{page.nextsteps}}</p>
 </div>
 <div class="wrapper push-2">
-  <img class="img-flex" src="/images/mushroomboy_computer.png" alt="">
+  <img class="img-flex" src="/images/{{page.computer}}" alt="">
 </div>
 {% pattern continue/next %}
