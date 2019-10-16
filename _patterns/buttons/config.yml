@@ -11,5 +11,5 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.buttons[3]"
+          source: "site.buttons[0]"
           type: Button
