@@ -5,4 +5,5 @@ description: |
 image: "/images/mushroomboy_preview.png"
 alt: "Preview of e-commerce wesite"
 background: "ecom-bg"
+link: "https://serene-bassi-917969.netlify.com/work/mushroomboy/"
 ---

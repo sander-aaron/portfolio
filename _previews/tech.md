@@ -5,4 +5,5 @@ description: |
 image: "/images/tech_preview.png"
 alt: "Coming Soon"
 background: "tech-bg"
+link: "#"
 ---
