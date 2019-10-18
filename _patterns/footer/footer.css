@@ -7,10 +7,6 @@ li {
   border-radius: 20px;
 }
 
-.copyright {
-  background-color: var(--color-yellow);
-}
-
 .footer-nav {
   display: inline;
 }

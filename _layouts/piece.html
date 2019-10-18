@@ -3,19 +3,19 @@ layout: default
 ---
 <div class="max-length">
   <h2>Overview</h2>
-  <p class="overview mega">{{page.overview}}</p>
+  <p class="overview mega push-2">{{page.overview}}</p>
   <div class="grid text-center">
-    <span class="unit xs-1 s-1 m-1-2 l-1-2">
+    <span class="unit xs-1 s-1 m-1-2 l-1-2 push-2">
       {% assign btn_data=site.buttons[0] %}
       {% pattern buttons/site data=btn_data %}
     </span>
-    <span class="unit xs-1 s-1 m-1-2 l-1-2">
+    <span class="unit xs-1 s-1 m-1-2 l-1-2 push-2">
       {% assign btn_data=site.buttons[1] %}
       {% pattern buttons/site data=btn_data %}
     </span>
   </div>
 </div>
-<div class="wrapper">
+<div class="wrapper push-2">
   <img class="img-flex" src="/images/{{page.setupimg}}" alt="">
 </div>
 <div class="max-length">
@@ -26,27 +26,27 @@ layout: default
   <p>{{page.target}}</p>
 </div>
 {% if page.firstpersona %}
-<div class="wrapper grid">
+<div class="wrapper grid push-2">
   <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.firstpersona}}" alt="">
   <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.secondpersona}}" alt="">
 </div>
 {% endif %}
-<div class="max-length">
-  <h3>Website Goals</h3>
-  <p>{{page.goal}}</p>
+<div class="max-length push-2">
+  <h4>Website Goals</h4>
+  <p class="push-2">{{page.goal}}</p>
   {% if page.urban %}
-  <h3>Competitive Analysis</h3>
-  <h4>{{page.urban}}</h4>
-  <h5>{{page.abouttitle}}</h5>
+  <h4>Competitive Analysis</h4>
+  <h5>{{page.urban}}</h5>
+  <h6>{{page.abouttitle}}</h6>
   <p>{{page.about}}</p>
-  <h5>{{page.audiencetitle}}</h5>
+  <h6>{{page.audiencetitle}}</h6>
   <p>{{page.audience}}</p>
-  <h5>{{page.strengthstitle}}</h5>
+  <h6>{{page.strengthstitle}}</h6>
   <p>{{page.strengths}}</p>
-  <h5>{{page.weaknessestitle}}</h5>
-  <p>{{page.weaknesses}}</p>
+  <h6>{{page.weaknessestitle}}</h6>
+  <p class="push-2">{{page.weaknesses}}</p>
   {% endif %}
-  <h4>Visual Design</h4>
+  <h3>Visual Design</h3>
   <p>{{page.visual}}</p>
   <h3>Typeface</h3>
   <p>{{page.type}}</p>
@@ -60,8 +60,8 @@ layout: default
   </div>
   <h3>Colour Palette</h3>
   <p>{{page.colour}}</p>
-  <img class="img-flex" src="/images/{{page.colours}}" alt="">
-  <h3>Bringing it all together</h3>
+  <img class="img-flex push-2" src="/images/{{page.colours}}" alt="">
+  <h2>Bringing it all together</h2>
   <p>{{page.together}}</p>
   <h3>Next Steps</h3>
   <p>{{page.nextsteps}}</p>
