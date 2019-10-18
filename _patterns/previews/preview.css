@@ -44,3 +44,7 @@
 .preview {
   color: var(--color-primary);
 }
+
+.bottom {
+  margin-bottom: 3em;
+}
