@@ -2,6 +2,11 @@
 layout: piece
 name: "SAAS Website"
 subtitle: "Marketo"
+sitetitle: "Marketo · Aaron Sander"
+metatitle: "Marketo · Aaron Sander · Web Development Portfolio"
+metaurl: "https://aaronsander.ca/work/saas-marketo/"
+metaimg: "saas_setup.png"
+metadecription: "Create a website for Marketo, a SAAS website that provides marketing advertisment."
 show_content_banner: true
 overview: "hfdskf"
 setupimg: "saas_setup.png"
