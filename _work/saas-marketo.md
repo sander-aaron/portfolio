@@ -10,6 +10,7 @@ metadecription: "Create a website for Marketo, a SAAS website that provides mark
 show_content_banner: true
 overview: "hfdskf"
 setupimg: "saas_setup.png"
+setupalt: "A display of the main 3 pages on the Marketo site"
 research: "Add in research opening"
 target: "bleh"
 goal: "bleh"
@@ -21,7 +22,9 @@ type2: "saas-font2.png"
 font2alt: "Ubuntu Regular"
 colour: "Write about the colour choices"
 colours: "saas_colours.png"
+coloursalt: "The main colours used for the Marketo site"
 together: "Write the bringing it all together paragraph"
 nextsteps: "Write next steps"
 computer: "saas_computer.png"
+computeralt: "A display of what the Marketo site would look like on a computer screen"
 ---

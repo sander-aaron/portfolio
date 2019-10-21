@@ -16,7 +16,7 @@ layout: default
   </div>
 </div>
 <div class="wrapper push-2">
-  <img class="img-flex" src="/images/{{page.setupimg}}" alt="">
+  <img class="img-flex" src="/images/{{page.setupimg}}" alt="{{page.setupalt}}">
 </div>
 <div class="max-length">
   <h2>Process</h2>
@@ -27,8 +27,8 @@ layout: default
 </div>
 {% if page.firstpersona %}
 <div class="wrapper grid push-2">
-  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.firstpersona}}" alt="">
-  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.secondpersona}}" alt="">
+  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.firstpersona}}" alt="{{page.persona1alt}}">
+  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.secondpersona}}" alt="{{page.persona1alt}}">
 </div>
 {% endif %}
 <div class="max-length push-2">
@@ -60,13 +60,13 @@ layout: default
   </div>
   <h3>Colour Palette</h3>
   <p>{{page.colour}}</p>
-  <img class="img-flex push-2" src="/images/{{page.colours}}" alt="">
+  <img class="img-flex push-2" src="/images/{{page.colours}}" alt="{{page.coloursalt}}">
   <h2>Bringing it all together</h2>
   <p>{{page.together}}</p>
   <h3>Next Steps</h3>
   <p>{{page.nextsteps}}</p>
 </div>
 <div class="wrapper push-2">
-  <img class="img-flex" src="/images/{{page.computer}}" alt="">
+  <img class="img-flex" src="/images/{{page.computer}}" alt="{{page.computeralt}}">
 </div>
 {% pattern continue/next %}

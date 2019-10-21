@@ -11,6 +11,7 @@ show_content_banner: true
 overview: |
   Provide an “update” for the website for the Freedom Dog Rescue. We were tasked with finding a “bad” website or one in need of a revamp and update it. As well, we were told to be creative with our animal picks."
 setupimg: "otter_setup.png"
+setupalt: "A display of the main 3 pages on the Freedom Otter Rescue site"
 research: "Add in research opening"
 target: "Anyone who would be interested in fostering an otter and give it a loving family. As otters are an uncommon household pet, they need lots of attention and care, we are looking for people who are willing to have the commitment of an otter. The target of this website would already be interested in otters and know a lot about them as they would be looking to foster, they would also be an animal lover who is interested in otters or maybe just general public who are looking for a non-profit organization to give donations to animals in the need of a foster home."
 goal: "The goal of this website is to convince people who are looking at it to become a foster to help the otters."
@@ -31,7 +32,9 @@ type2: "otter-font2.png"
 font2alt: "Montserrat Bold"
 colour: "Write about the colour choices"
 colours: "otter_colours.png"
+coloursalt: "The main colours used for the Freedom Otter Rescue site"
 together: "Write the bringing it all together paragraph"
 nextsteps: "Write next steps"
 computer: "otter_computer.png"
+computeralt: "A display of what the Freedom Otter Rescue site would look like on a computer screen"
 ---
