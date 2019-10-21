@@ -16,3 +16,30 @@ layout: default
     {% assign Preview_data=site.previews[0] %}
     {% pattern previews/preview data=Preview_data %}
   </div>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Aaron Sander's Portfolio",
+      "author": {
+        "@type": "Person",
+        "@id": "#aaronsander"
+      },
+      "description": "Aaron Sander's portfolio for web development and a few other things",
+      "image": "https://aaronsander.ca/images/me.png",
+      "url": "https://aaronsander.ca/#work",
+      "keywords": "Web, Responsive, CSS, Mobile, E-Commerce, shopping"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "#aaronsander",
+      "name": "Aaron Sander",
+      "email": "hey@aaronsander.ca",
+      "url": "https://aaronsander.ca"
+    }
+  </script>
