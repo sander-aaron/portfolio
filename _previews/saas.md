@@ -5,6 +5,6 @@ description: |
 image: "/images/saas_preview.png"
 alt: "Preview of SAAS"
 background: "saas-bg"
-link: "https://serene-bassi-917969.netlify.com/work/saas-marketo/"
+link: "/work/saas-marketo/"
 firstbtn: "4"
 ---
