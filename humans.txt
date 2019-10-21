@@ -1,0 +1,26 @@
+# humanstxt.org
+
+# TEAM
+
+- [me] {https://github.com/sander-aaron}
+- myself
+- my wonderful teacher [Thomas J Bradley] {https://github.com/thomasjbradley}
+
+---
+
+# THANKS
+
+(This is the place where you put sources of things)
+(Locations where you got icons, etc.)
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+Written using Atom and Github. Supported by Yaml, Jekyll and Markdown.
+
+## Hosting
+
+The site is hosted through Hover and Cloudflare. Email hosting by Fastmail.
