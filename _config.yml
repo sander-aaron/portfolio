@@ -25,6 +25,8 @@ patternbot:
       This is the layout to be used on all pages.
     piece: |
       This is the layout to be used on every portfolio piece page. It will display all information about the portfolio piece once a project has been selected.
+    morework: |
+      This is the layout to be used on my miscellaneous artwork page. It shows off my other skills, not just my web dev skills.
 collections:
   previews:
   work:
