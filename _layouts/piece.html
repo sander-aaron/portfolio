@@ -37,16 +37,45 @@ layout: default
   {% if page.urban %}
   <h4>Competitive Analysis</h4>
   <h5>{{page.urban}}</h5>
+  {% if page.competimg %}
+  </div>
+  <div class="wrapper push-2">
+    <img class="img-flex" src="/images/{{page.competimg}}" alt="A screenshot of the vans custome shoe designer">
+  </div>
+  <div class="max-length push-2 gutter">
+  {% endif %}
   <h6 class="push-1-2">{{page.abouttitle}}</h6>
   <p>{{page.about}}</p>
   <h6 class="push-1-2">{{page.audiencetitle}}</h6>
   <p>{{page.audience}}</p>
+  {% if page.strengthstitle %}
   <h6 class="push-1-2">{{page.strengthstitle}}</h6>
   <p>{{page.strengths}}</p>
+  {% else %}
+  <h6 class="push-1-2">{{page.innovativestrat}}</h6>
+  <p>{{page.strat}}</p>
+  {% endif %}
   <h6 class="push-1-2">{{page.weaknessestitle}}</h6>
   <p class="push-2">{{page.weaknesses}}</p>
+  {% if page.secondcompt %}
+  <h4>Competitive Analysis</h4>
+  <h5>{{page.secondcompt}}</h5>
+  </div>
+  <div class="wrapper push-2">
+    <img class="img-flex" src="/images/{{page.competimg2}}" alt="A screenshot of the dominos custom pizza builder">
+  </div>
+  <div class="max-length push-2 gutter">
+  <h6 class="push-1-2">{{page.abouttitle}}</h6>
+  <p>{{page.about2}}</p>
+  <h6 class="push-1-2">{{page.audiencetitle}}</h6>
+  <p>{{page.audience2}}</p>
+  <h6 class="push-1-2">{{page.innovativestrat}}</h6>
+  <p>{{page.strat2}}</p>
+  <h6 class="push-1-2">{{page.weaknessestitle}}</h6>
+  <p class="push-2">{{page.weaknesses2}}</p>
   {% endif %}
-  <h3>Visual Design</h3>
+  {% endif %}
+  <h2>Visual Design</h2>
   <p>{{page.visual}}</p>
   <h3>Typeface</h3>
   <p>{{page.type}}</p>
@@ -65,6 +94,9 @@ layout: default
   <p>{{page.together}}</p>
   <h3>Next Steps</h3>
   <p>{{page.nextsteps}}</p>
+  {% if page.nextsteps2 %}
+  <p>{{page.nextsteps2}}</p>
+  {% endif %}
 </div>
 <div class="wrapper push-2">
   <img class="img-flex" src="/images/{{page.computer}}" alt="{{page.computeralt}}">
