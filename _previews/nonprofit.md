@@ -5,6 +5,6 @@ description: |
 image: "/images/otter_preview.png"
 alt: "Preview of Not for Profit Site"
 background: "nfp-bg"
-link: "/work/otter-resuce/"
+link: "/work/otter-rescue/"
 firstbtn: "3"
 ---

@@ -18,6 +18,11 @@
   left: 49%;
 }
 
+.title {
+  font-size: 2rem;
+  line-height: 1;
+}
+
 @media only screen and (min-width: 400px) {
 
   .banner-content {
@@ -30,6 +35,14 @@
   }
 }
 
+@media only screen and (min-width: 25em) {
+
+  .title {
+    font-size: 2.5rem;
+    line-height: 4.2rem;
+  }
+}
+
 @media only screen and (min-width: 432px) {
 
   .banner-content {
@@ -39,5 +52,21 @@
 
   .banner {
     background-position: right center;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .title {
+    font-size: 3rem;
+    line-height: 4.2rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .title {
+    font-size: 4.2087rem;
+    line-height: 5.625rem;
   }
 }
