@@ -9,6 +9,10 @@
   color: var(--color-blue);
 }
 
+.cont-a:hover .arrows {
+  color: #0019b3;
+}
+
 .cont-a {
   text-decoration: none;
 }
