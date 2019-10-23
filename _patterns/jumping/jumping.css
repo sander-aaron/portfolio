@@ -1,15 +1,12 @@
-.middot:hover {
-  background-color: white;
-}
-
-.middot {
-  font-weight: 800;
-}
-
 ol {
   display: inline-block;
 }
 
+ol a {
+  text-decoration: none;
+}
+
 ol:hover a {
   color: #0019b3;
+  border-bottom: solid 1px #0019b3;
 }
