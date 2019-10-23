@@ -3,18 +3,17 @@ layout: default
 ---
 
   <div id="work">
+    {% assign Preview_data=site.previews[0] %}
+    {% pattern previews/preview data=Preview_data %}
     {% assign Preview_data=site.previews[1] %}
     {% pattern previews/preview data=Preview_data %}
     {% assign Preview_data=site.previews[2] %}
     {% pattern previews/preview data=Preview_data %}
     {% assign Preview_data=site.previews[3] %}
     {% pattern previews/preview data=Preview_data %}
-    {% assign Preview_data=site.previews[4] %}
-    {% pattern previews/preview data=Preview_data %}
   </div>
   <div id="about">
-    {% assign Preview_data=site.previews[0] %}
-    {% pattern previews/preview data=Preview_data %}
+    {% pattern previews/about %}
   </div>
   {% pattern continue/more %}
 

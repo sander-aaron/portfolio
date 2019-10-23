@@ -1,9 +1,16 @@
 title: "Previews"
 description: |
-  This is the pattern for my project preview that is on my homepage. This gives the viewer a snapshot of a project with a description.
+  This is the pattern for any preview that is on my homepage.
 
 patterns:
+  about:
+    title: "About Preview"
+    description: |
+      This is the about me section on my homepage.
   preview:
+    title: "Project Previews"
+    description: |
+      This is the pattern for my project preview that is on my homepage. This gives the viewer a snapshot of a project with a description.
     fields:
       - name: data
         type: object

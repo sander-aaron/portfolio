@@ -6,13 +6,13 @@
 }
 
 .arrows {
-  color: var(--color-blue);
+  color: var(--color-blue) !important;
 }
 
 .cont-a:hover .arrows {
-  color: #0019b3;
+  color: #0019b3 !important;
 }
 
 .cont-a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
