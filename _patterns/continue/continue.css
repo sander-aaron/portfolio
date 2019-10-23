@@ -16,3 +16,11 @@
 .cont-a {
   text-decoration: none !important;
 }
+
+.right-arrow .arrows {
+  transition: all .5s ease-in;
+}
+
+.cont-a:hover .right-arrow .arrows {
+  transform: translateX(30px);
+}
