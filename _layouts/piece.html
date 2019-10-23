@@ -2,7 +2,8 @@
 layout: default
 ---
 <div class="max-length gutter">
-  <h2>Overview</h2>
+  {% pattern jumping/jumping %}
+  <h2 id="overview">Overview</h2>
   <p class="overview mega push-2">{{page.overview}}</p>
   <div class="grid text-center">
     <span class="unit xs-1 s-1 m-1-2 l-1-2 push-2">
@@ -19,9 +20,11 @@ layout: default
   <img class="img-flex" src="/images/{{page.setupimg}}" alt="{{page.setupalt}}">
 </div>
 <div class="max-length gutter">
-  <h2>Process</h2>
+  <h2 id="process">Process</h2>
   <h3>Research</h3>
   <p>{{page.research}}</p>
+  <h4>Website Goal</h4>
+  <p class="push-2">{{page.goal}}</p>
   <h4>Target Audience</h4>
   <p>{{page.target}}</p>
 </div>
@@ -32,8 +35,6 @@ layout: default
 </div>
 {% endif %}
 <div class="max-length push-2 gutter">
-  <h4>Website Goals</h4>
-  <p class="push-2">{{page.goal}}</p>
   {% if page.urban %}
   <h4>Competitive Analysis</h4>
   <h5>{{page.urban}}</h5>
@@ -81,7 +82,7 @@ layout: default
   <p>{{page.type}}</p>
   <div class="grid push-2">
     <div class="unit xs-1 s-1-2 m-1-2 l-1-2 mb-font1 text-center">
-      <img class="img-flex island-1-4" src="/images/{{page.type1}}" alt="Display of {{page.font2alt}}">
+      <img class="img-flex island-1-4" src="/images/{{page.type1}}" alt="Display of {{page.font1alt}}">
     </div>
     <div class="unit xs-1 s-1-2 m-1-2 l-1-2 mb-font2 text-center">
       <img class="img-flex island-1-4" src="/images/{{page.type2}}" alt="Display of {{page.font2alt}}">
@@ -90,7 +91,7 @@ layout: default
   <h3>Colour Palette</h3>
   <p>{{page.colour}}</p>
   <img class="img-flex push-2" src="/images/{{page.colours}}" alt="{{page.coloursalt}}">
-  <h2>Bringing it all together</h2>
+  <h2 id="bringing">Bringing it Together</h2>
   <p>{{page.together}}</p>
   <h3>Next Steps</h3>
   <p>{{page.nextsteps}}</p>

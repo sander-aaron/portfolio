@@ -1,0 +1,15 @@
+.middot:hover {
+  background-color: white;
+}
+
+.middot {
+  font-weight: 800;
+}
+
+ol {
+  display: inline-block;
+}
+
+ol:hover a {
+  color: #0019b3;
+}
