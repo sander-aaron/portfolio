@@ -16,3 +16,9 @@ li:hover a {
   background-color: var(--color-yellow);
   color: var(--color-primary);
 }
+
+.header {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
