@@ -10,7 +10,7 @@ metadecription: |
   Made using a pattern library, every pattern is coded in its own HTML file, in a pattern folder and draws from a CSS file in the pattern folder.
 show_content_banner: true
 overview: |
-  Made using a pattern library, every pattern is coded in its own HTML file, in a pattern folder and draws from a CSS file in the pattern folder. To build each page, patterns are called out and pieced together with only minimal amounts of HTML to structure them.
+  Creating a e-commerce site using a pattern library. Every pattern is coded in its own HTML file, in a pattern folder and draws from a CSS file in the pattern folder. To build each page, patterns are called out and pieced together with only minimal amounts of HTML to structure them.
 setupimg: "mushroomboy_setup.png"
 setupalt: "A display of the main 3 pages on the Mushroom Boy site"
 research: |
