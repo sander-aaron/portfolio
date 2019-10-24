@@ -8,5 +8,5 @@ ol a {
 
 ol:hover a {
   color: #0019b3;
-  border-bottom: solid 1px #0019b3;
+  border-bottom: solid 2px var(--color-yellow);
 }
