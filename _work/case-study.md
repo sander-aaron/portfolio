@@ -56,7 +56,7 @@ colour: |
 colours: "case_colours.png"
 coloursalt: "The main colours used for the Beau's Bonbons site"
 together: |
-  From my research I learned that when you are implementing an innovative tech solution, it is important to make sure that the solution works flawlessly and provides the user with an easier experience than they would have had without it.
+  From my research, I learned that when you are implementing an innovative tech solution, it is important to make sure that the solution works flawlessly and provides the user with an easier experience than they would have had without it.
 nextsteps: |
   After all the research and design has been finished, building the physical site would be the next step. To do that, I would build the site with Bootstrap, an open-source component library. Using Bootstrap will give me the ability to tie together HTML, CSS, and JavaScript quickly and efficiently, as well as letting me apply my styling and give the site an overall unique and coherent feeling.
 nextsteps2: |
