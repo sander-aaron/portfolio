@@ -26,10 +26,10 @@ audiencetitle: "Target Audience"
 audience: "Adults who are looking to rescue a dog or other animal. This site has a lot of other animals to foster and/or rescue."
 strengthstitle: "Strengths"
 strengths: |
-  The site has a lot of pictures which catch the eyes of the user (FINISH)
+  The site has a lot of pictures which catch the eyes of the user, it has clear titles for their banners and directs the user to what they are looking for quickly.
 weaknessestitle: "Weaknesses"
 weaknesses: |
-  Put in weaknesses
+  It is a very simple site, there is not much information on the home page when you come in. As well, their navigation is a little finicky and hard to get the dropdowns to work.
 visual: |
   After all the research had been done, I started to think about how I wanted the site to feel. I knew the site had to feel professional but it also had to feel welcoming. I strived to be professional without being cold and friendly without being unprofessional.
 type: |
@@ -39,7 +39,7 @@ font1alt: "Montserrat Regular"
 type2: "otter-font2.png"
 font2alt: "Montserrat Bold"
 colour: |
-  A very limited colour palette was chosen for this site, allowing the images of the otters to speak for themselves. The blue was chosen because it is a bit on the darker side <small>(it was a swatch taken from the image on the home page)</small>, this helps keep the focus on the images of the otters and the darker aspect lends well to a very professional feeling. As well, blue scientifically makes people (puts people in a caring state??????).</p>
+  A very limited colour palette was chosen for this site, allowing the images of the otters to speak for themselves. The blue was chosen because it is a bit on the darker side <small>(it was a swatch taken from the image on the home page)</small>, this helps keep the focus on the images of the otters and the darker aspect lends well to a very professional feeling. As well, blue scientifically makes people feel calm and trusting which is an important factor in getting people to like what you are presenting to them.</p>
   <p>The primary grey was chosen for the background colours because it softened the site and gave it a more welcoming feel. Having a stark white background created a lot more of an “in-your-face” tone which was not what I was going for.
 colours: "otter_colours.png"
 coloursalt: "The main colours used for the Freedom Otter Rescue site"
