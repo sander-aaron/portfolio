@@ -10,8 +10,8 @@
 
 # THANKS
 
-(This is the place where you put sources of things)
-(Locations where you got icons, etc.)
+## Mockup
+Computer mockups from Graphic Burger user [Belle Willie] {https://www.behance.net/bellewille}
 
 ---
 
