@@ -17,7 +17,7 @@ research: |
 target: |
   Small businesses and global enterprises that need a simple marketing solution to promote their business.
 goal: |
-  To attract new customers and explain who Marketo is and what they do simply and understandably. The project I was tasked with was to revamp the website they had at the time.
+  To attract new customers and explain who Marketo is and what they do simply and understandably. The project I was tasked with was to revamp the website they had at the time, the site was filled with pictures and took a while to load.
 visual: |
   Once all the research was completed the visual design was constructed, keeping in mind that this is a very professional website that deals with a lot of knowledgable clients, meaning the site has to be straight-forward and easy for them to use.
 type: |
@@ -31,9 +31,9 @@ colour: |
 colours: "saas_colours.png"
 coloursalt: "The main colours used for the Marketo site"
 together: |
-  Write the bringing it all together paragraph
+  Once research and visual design has been created, I began with creating similar elements between pages. I referenced my XD file on how I should create and style every page.
 nextsteps: |
-  Write next steps
+  The next step I would take would be to loosen up the site a bit by adding more white space and soften the way the site looks by adding rounded corners around the boxes.
 computer: "saas_computer.png"
 computeralt: "A display of what the Marketo site would look like on a computer screen"
 ---
