@@ -22,6 +22,8 @@
 
 .right-arrow .arrows {
   transition: all .5s ease-in;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .cont-a:hover .right-arrow .arrows {
