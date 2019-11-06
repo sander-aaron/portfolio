@@ -30,6 +30,13 @@
   background-repeat: no-repeat;
 }
 
+.queens-bg {
+  background-image: url("../../images/fifth.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .about-bg {
   background-image: url("../../images/about.svg");
   background-position: center center;

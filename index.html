@@ -1,45 +1,30 @@
 ---
 layout: default
+sitetitle: "Aaron Sander · Web Development Portfolio · Ottawa Ontario"
+metatitle: "Aaron Sander · Web Development Portfolio · Ottawa Ontario"
+metaurl: "https://aaronsander.ca/"
+metaimg: "myface.png"
+metadecription: "Aaron Sander's portfolio for web development and a few other things."
 ---
+
 
   <div id="work">
     {% assign Preview_data=site.previews[0] %}
     {% pattern previews/preview data=Preview_data %}
     {% assign Preview_data=site.previews[1] %}
     {% pattern previews/preview data=Preview_data %}
-    {% assign Preview_data=site.previews[2] %}
-    {% pattern previews/preview data=Preview_data %}
     {% assign Preview_data=site.previews[3] %}
+    {% pattern previews/preview data=Preview_data %}
+    {% assign Preview_data=site.previews[4] %}
+    {% pattern previews/preview data=Preview_data %}
+    {% assign Preview_data=site.previews[2] %}
     {% pattern previews/preview data=Preview_data %}
   </div>
   <div id="about">
     {% pattern previews/about %}
+    <!-- <div class="max-length">
+      <h2 class="giga">What am I up to?</h2>
+      <p>Currently I am working for Queen's University</p>
+    </div> -->
   </div>
   {% pattern continue/more %}
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Aaron Sander's Portfolio",
-      "author": {
-        "@type": "Person",
-        "@id": "#aaronsander"
-      },
-      "description": "Aaron Sander's portfolio for web development and a few other things",
-      "image": "https://aaronsander.ca/images/me.png",
-      "url": "https://aaronsander.ca/#work",
-      "keywords": "Web, Responsive, CSS, Mobile, E-Commerce, shopping"
-    }
-  </script>
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "#aaronsander",
-      "name": "Aaron Sander",
-      "email": "hey@aaronsander.ca",
-      "url": "https://aaronsander.ca"
-    }
-  </script>

@@ -1,6 +1,10 @@
 ---
 layout: piece
 name: "E-commerce Website"
+button1_title: "Visit the Pattern Library"
+button1_link: "https://objective-northcutt-bd7c06.netlify.com/pattern-library/#brand"
+button2_title: "Visit the Website"
+button2_link: "https://objective-northcutt-bd7c06.netlify.com"
 subtitle: "Mushroom Boy"
 sitetitle: "Mushroom Boy · Aaron Sander"
 metatitle: "Mushroom Boy · Aaron Sander · Web Development Portfolio"
@@ -49,7 +53,7 @@ colours: "mushroomboy_colours.png"
 coloursalt: "The main colours used for the Mushroom Boy site"
 together: |
   Once the visual brand was thoroughly thought through, the next step was to start designing the layout of the site. The homepage was designed to be minimal with the sole purpose of drawing users further into the site. The main banner for it was larger than any other page to announce to the user what site they were on and to give the site a bit of life with the animated bubbles moving around. Additionally, each accent colour corresponds to a collection of items, which helps enforce the colours as part of the brand and brings all the pages together.</p>
-  <p>To start the coding process, I downloaded a whole bunch of things to get my pattern library up and running... <small>(It was a long process)</small> Once all the downloading was done, I started by breaking my wireframe site down into repeating patterns. This is a vital step when creating pattern libraries since it groups and trims down patterns and lets you know which patterns can become an array(?). An array(?) is one repeating pattern that, with the help of some Markdown files, can spit out different pieces of code that all look the same but each has different information, which is very handy when you are making a products page.</p>
+  <p>To start the coding process, I downloaded a whole bunch of things to get my pattern library up and running... <small>(It was a long process)</small> Once all the downloading was done, I started by breaking my wireframe site down into repeating patterns. This is a vital step when creating pattern libraries since it groups and trims down patterns and lets you know which patterns can become a collection. A collection is one repeating pattern that, with the help of some Markdown files, can spit out different pieces of code that all look the same but each has different information, which is very handy when you are making a products page.</p>
   <p> Coding for a pattern library has a steep learning curve, but I got used to it quickly once I understood how vital the file structure is. Each pattern gets its own folder and each folder has an HTML, CSS and config.YML file. This gives each pattern it's own HTML file, a CSS sheet to reference for styling and a config.YML for an explanation in the pattern library.</p>
   <p> After I had all my patterns made, all that was left was to place each piece into its respective place. I created a few layouts that would be used around the site that held common patterns like the navigation, the header and the footer. Then made HTML files for each page and placed in the appropriate pattern and array. In all, the building of the site was the shortest amount of time, all it took was a little bit of code and placing some patterns.
 nextsteps: |

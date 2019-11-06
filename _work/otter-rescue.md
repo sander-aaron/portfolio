@@ -1,6 +1,8 @@
 ---
 layout: piece
 name: "Non-Profit Website"
+button1_title: "Visit the Website"
+button1_link: "https://sander-aaron.github.io/animal-rescue-website/"
 subtitle: "Freedom Otter Rescue"
 sitetitle: "Freedom Otter Rescue · Aaron Sander"
 metatitle: "Freedom Otter Rescue · Aaron Sander · Web Development Portfolio"
