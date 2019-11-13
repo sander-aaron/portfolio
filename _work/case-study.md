@@ -63,5 +63,5 @@ nextsteps2: |
   When implementing the innovative solution, I will use something like JSC3D, which is an open-source online 3D model viewer and toolkit based on HTML5 and Javascript. This would allow me to input my 3D model of the bonbons and give me the capabilities to rotate them and switch between the outside view and inside view."
 computer: "case_computer.png"
 computeralt: "A display of what the Beau's Bonbons site would look like on a computer screen"
-nextpiece: "/work/mushroomboy"
+nextpiece: "/work/smith-school-business/"
 ---

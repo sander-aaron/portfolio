@@ -38,4 +38,5 @@ nextsteps: |
   The next step I would take would be to loosen up the site a bit by adding more white space and soften the way the site looks by adding rounded corners around the boxes.
 computer: "saas_computer.png"
 computeralt: "A display of what the Marketo site would look like on a computer screen"
+nextpiece: "/work/case-study/"
 ---

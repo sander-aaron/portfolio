@@ -60,4 +60,5 @@ nextsteps: |
   The next step with this project would be to build out the rest of the site, as right now, only a select few pages of the site are up and running. As well, getting the site up to internet standards, adding all SEO and meta data, would follow close behind.
 computer: "mushroomboy_computer.png"
 computeralt: "A display of what the Mushroom Boy site would look like on a computer screen"
+nextpiece: "/work/otter-rescue/"
 ---

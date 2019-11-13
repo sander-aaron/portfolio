@@ -9,10 +9,11 @@ metaimg: "queens_setup.png"
 metadecription: |
   Design and coding done for Smith School of Business at Queen's University and the IT department.
 show_content_banner: true
+nextpiece: "/work/mushroomboy/"
 ---
 <div class="max-length gutter">
   <h2 id="overview">Overview</h2>
   <p class="overview mega push-2">Design and coding done for Smith School of Business at Queen's University and the IT department.</p>
 </div>
 
-{% pattern continue/next %}
+{% pattern continue/next url=page.nextpiece %}
