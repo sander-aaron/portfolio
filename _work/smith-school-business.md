@@ -13,7 +13,6 @@ show_content_banner: true
 <div class="max-length gutter">
   <h2 id="overview">Overview</h2>
   <p class="overview mega push-2">Design and coding done for Smith School of Business at Queen's University and the IT department.</p>
-<div>
-<div class="wrapper">
-  <img class="img-flex" src="/images/queens_setup.png" alt="a dispaly of a project on a computer">
 </div>
+
+{% pattern continue/next %}

@@ -9,7 +9,7 @@ layout: default
   <p class="overview mega push-2">{{page.overview}}</p>
   <div class="grid text-center">
     {% if page.button1_title %}
-    <span class="unit xs-1 s-1 m-1-2 l-1-2 push-2">
+    <span class="unit unit-xs-centered xs-1 s-1 m-1-2 l-1-2 push-2">
       {% pattern buttons/site title=page.button1_title link=page.button1_link %}
     </span>
     {% endif %}
@@ -106,4 +106,6 @@ layout: default
 <div class="wrapper push-2">
   <img class="img-flex" src="/images/{{page.computer}}" alt="{{page.computeralt}}">
 </div>
-{% pattern continue/next %}
+{% pattern continue/next url=page.nextpiece %}
+{{page.nextpiece}}
+ikujyhgf
