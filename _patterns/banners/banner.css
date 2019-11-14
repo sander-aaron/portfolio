@@ -64,7 +64,7 @@
 @media only screen and (min-width: 432px) {
 
   .banner-content {
-    top: 25%;
+    top: 10%;
     right: 10%;
   }
 
@@ -82,6 +82,11 @@
 
   .banner {
     background-position: right center;
+  }
+
+  .banner-content {
+    top: 25%;
+    right: 10%;
   }
 }
 
