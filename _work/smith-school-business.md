@@ -50,7 +50,8 @@ nextpiece: "/work/mushroomboy/"
 </div>
 <div class="max-length gutter">
   <h4>Coaching Pages</h4>
-  <p>write about updating Coaching pages</p>
+  <p>These pages were for people seeking coaching for their program. The original style was extremely outdated, a few years worth of rebranding had happened without these pages getting redone. I was given "free" reign of the pages, tasked with making them look like the new styling, specifically the templates since students would be familiar with the look and function.</p>
+  <p>Below are the three pages that needed to be restyled, the coaches page was the most drastic update, changing from a tab view to an accordion view. This prevented users from having to scroll away from the coaches picture like the previous styling required. This format keeps all of the necessary information together and allows a user to quickly scroll through all of the coaches without having to repeatedly scroll up and down the page.</p>
 </div>
 <div class="wrapper push-2 grid">
   <div class="unit xs-1 s-1 m-1-2 l-1-2 push gutter-1-2">
