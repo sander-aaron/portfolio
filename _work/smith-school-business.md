@@ -15,17 +15,20 @@ nextpiece: "/work/mushroomboy/"
   <h2 id="overview">Overview</h2>
   <p class="overview mega push-2">Design and coding done for Smith School of Business at Queen's University and the IT department.</p>
   <h3>Updating Their Brand</h3>
-  <p>One of my jobs for Smith was updating from their old brand to their new brand. Most of the updating was done for their BrightSpace pages using Bootstrap.</p>
+  <p>One of my jobs was updating the styling and branding on D2L. They were in the process of moving from one brand to another, switching out D2L's branding for their own and updating from Bootstrap 3 to <a href="https://getbootstrap.com/">Bootstrap 4</a> which is a front-end component library that combines HTML, CSS, and JS.</p>
   <h4>Widgets</h4>
-  <p>write about updating widgets</p>
+  <p>The first things I was given to update was the widgets on the Smith School of Business D2L page.</p>
+  <p>I was given screenshots of a layout and styling for the new directory page that students were using. A prominent design feature of the new directory page was the flat cards with arrows that moved across to signal the student moving to a new page.</p>
+  <p>The majority of the styling was changed in the CSS files hosted on D2L, changing class names and colours, then updating classes in the HTML. One of the last pieces left for the widgets was to get the hover working for the arrows. A tough problem to solve was how to get the arrow to land in the same place every time it moved no matter what the distance it had to travel was.</p>
+  <p>Blah blah blah how to solve the arrow thing</p>
 </div>
 <div class="wrapper push-2 grid">
   <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    <img class="img-flex" src="/images/widgets_before.png" alt="Old widgets used on BrightSpace pages">
+    <img class="img-flex" src="/images/widgets_before.png" alt="Old widgets used on D2L pages">
     <i class="micro gutter-1-2">Old styling</i>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    <img class="img-flex" src="/images/widgets_after.png" alt="New widgets used on BrightSpace pages">
+    <img class="img-flex" src="/images/widgets_after.png" alt="New widgets used on D2L pages">
     <i class="micro gutter-1-2">New styling</i>
   </div>
   <div class="unit unit-xs-centered xs-1 s-1 m-1-2 l-1-2">
@@ -35,7 +38,9 @@ nextpiece: "/work/mushroomboy/"
 </div>
 <div class="max-length gutter">
   <h4>Templates</h4>
-  <p>write about updating templates</p>
+  <p>I was tasked with restyling the templates that professors use to build their sites and holds all the information for their for their courses. D2L had built most of the templates but they had the D2L styling.</p>
+  <p>While updating their templates, I learned how to style around other people's work while making sure not to break things and if things broke, being able to fix them. The JavaScript was not too hard to work around, being able to keep track of how it worked was a great skill to learn. Below is a video showing off the new styling of the template as well as the interaction with all of the features.</p>
+  <p>Not shown are a few simpler templates that are used for longer chunks of text or beginning explanations to a new module.</p>
 </div>
 <div class="wrapper push-2 grid">
   <div class="unit xs-1 s-1 m-1 l-1">
