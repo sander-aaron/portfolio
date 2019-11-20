@@ -20,7 +20,7 @@ nextpiece: "/work/mushroomboy/"
   <p>The first things I was given to update was the widgets on the Smith School of Business D2L page.</p>
   <p>I was given screenshots of a layout and styling for the new directory page that students were using. A prominent design feature of the new directory page was the flat cards with arrows that moved across to signal the student moving to a new page.</p>
   <p>The majority of the styling was changed in the CSS files hosted on D2L, changing class names and colours, then updating classes in the HTML. One of the last pieces left for the widgets was to get the hover working for the arrows. A tough problem to solve was how to get the arrow to land in the same place every time it moved no matter what the distance it had to travel was.</p>
-  <p>Blah blah blah how to solve the arrow thing</p>
+  <p>I had to use a combination of JavaScript and CSS to create this hover effect. (I DON'T REMEMBER)</p>
 </div>
 <div class="wrapper push-2 grid">
   <div class="unit xs-1 s-1 m-1-2 l-1-2">
@@ -38,7 +38,7 @@ nextpiece: "/work/mushroomboy/"
 </div>
 <div class="max-length gutter">
   <h4>Templates</h4>
-  <p>I was tasked with restyling the templates that professors use to build their sites and holds all the information for their for their courses. D2L had built most of the templates but they had the D2L styling.</p>
+  <p>I was tasked with restyling the templates that professors use to build their sites and holds all the information for their courses. D2L had built most of the templates but they had the D2L styling.</p>
   <p>While updating their templates, I learned how to style around other people's work while making sure not to break things and if things broke, being able to fix them. The JavaScript was not too hard to work around, being able to keep track of how it worked was a great skill to learn. Below is a video showing off the new styling of the template as well as the interaction with all of the features.</p>
   <p>Not shown are a few simpler templates that are used for longer chunks of text or beginning explanations to a new module.</p>
 </div>
@@ -51,7 +51,7 @@ nextpiece: "/work/mushroomboy/"
 <div class="max-length gutter">
   <h4>Coaching Pages</h4>
   <p>These pages were for people seeking coaching for their program. The original style was extremely outdated, a few years worth of rebranding had happened without these pages getting redone. I was given "free" reign of the pages, tasked with making them look like the new styling, specifically the templates since students would be familiar with the look and function.</p>
-  <p>Below are the three pages that needed to be restyled, the coaches page was the most drastic update, changing from a tab view to an accordion view. This prevented users from having to scroll away from the coaches picture like the previous styling required. This format keeps all of the necessary information together and allows a user to quickly scroll through all of the coaches without having to repeatedly scroll up and down the page.</p>
+  <p>Below are the three pages that needed to be restyled, the coaches page was the most drastic update, changing from a tab view to an accordion view. This prevented users from having to scroll away from the coaches' picture like the previous styling required. This format keeps all of the necessary information together and allows a user to quickly scroll through all of the coaches without having to repeatedly scroll up and down the page.</p>
 </div>
 <div class="wrapper push-2 grid">
   <div class="unit xs-1 s-1 m-1-2 l-1-2 push gutter-1-2">
