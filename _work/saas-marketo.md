@@ -8,7 +8,7 @@ sitetitle: "Marketo · Aaron Sander"
 metatitle: "Marketo · Aaron Sander · Web Development Portfolio"
 metaurl: "https://aaronsander.ca/work/saas-marketo/"
 metaimg: "saas_setup.png"
-metadecription: "Create a website for Marketo, a SAAS website that provides marketing advertisement."
+metadesription: "Create a website for Marketo, a SAAS website that provides marketing advertisement."
 show_content_banner: true
 overview: |
   Creating a new website for the company Marketo, a company which handles online marketing for their clients. Covering the basic needs of a SAAS website and being accessible to the user were key aspects of the site that had to be met.

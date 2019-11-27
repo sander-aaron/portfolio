@@ -6,7 +6,7 @@ sitetitle: "Work for the Smith School of Business · Aaron Sander"
 metatitle: "Work for the Smith School of Business · Aaron Sander · Web Development Portfolio"
 metaurl: "https://aaronsander.ca/work/smith-school-business/"
 metaimg: "queens_setup.png"
-metadecription: |
+metadesription: |
   Design and coding done for Smith School of Business at Queen's University and the IT department.
 show_content_banner: true
 nextpiece: "/work/mushroomboy/"

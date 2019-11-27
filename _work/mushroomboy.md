@@ -10,7 +10,7 @@ sitetitle: "Mushroom Boy · Aaron Sander"
 metatitle: "Mushroom Boy · Aaron Sander · Web Development Portfolio"
 metaurl: "https://aaronsander.ca/work/mushroomboy/"
 metaimg: "mushroomboy_setup.png"
-metadecription: |
+metadesription: |
   Made using a pattern library, every pattern is coded in its own HTML file, in a pattern folder and draws from a CSS file in the pattern folder.
 show_content_banner: true
 overview: |
