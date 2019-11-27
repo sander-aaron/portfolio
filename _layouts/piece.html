@@ -34,8 +34,12 @@ layout: default
 </div>
 {% if page.firstpersona %}
 <div class="wrapper grid push-2">
-  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.firstpersona}}" alt="{{page.persona1alt}}">
-  <img class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2" src="/images/{{page.secondpersona}}" alt="{{page.persona1alt}}">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
+    <img class="img-flex" src="/images/{{page.firstpersona}}" alt="{{page.persona1alt}}">
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
+    <img class="img-flex" src="/images/{{page.secondpersona}}" alt="{{page.persona1alt}}">
+  </div>
 </div>
 {% endif %}
 <div class="max-length push-2 gutter">

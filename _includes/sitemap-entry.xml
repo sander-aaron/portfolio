@@ -1,5 +1,5 @@
 <url>
-  <loc>aaronsander.ca{{site.baseurl}}{{include.entry.url}}</loc>
+  <loc>http://aaronsander.ca{{site.baseurl}}{{include.entry.url}}</loc>
   {% if include.entry.changefreq %}
     <changefreq>{{include.entry.changefreq}}</changefreq>
   {% endif %}
