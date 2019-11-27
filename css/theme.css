@@ -174,10 +174,6 @@ a {
   color: var(--color-blue);
 }
 
-.skip-links {
-  display: none;
-}
-
 caption {
   font-family: var(--font-secondary);
   color: var(--color-primary);

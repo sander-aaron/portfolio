@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Raleway:400,500,600,700,800,900&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="icon" type="image/png" href="favicon-196.png">
+  <meta name="description" content="{{page.metadescription}}">
   <meta name="ICBM" content="45.41117,-75.69812">
   <meta name="geo.position" content="45.41117,-75.69812">
   <meta name="geo.region" content="ca-on">
@@ -17,7 +18,7 @@
   <meta property="og:url" content="{{page.metaurl}}">
   <meta property="og:image" content="https://aaronsander.ca/images/{{page.metaimg}}">
   <meta property="og:site_name" content="Aaron Sander's Portfolio">
-  <meta property="og:description" content="{{metadesription}}">
+  <meta property="og:description" content="{{page.metadescription}}">
   <meta property="og:locale" content="en_CA">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@aaronsander8">
@@ -36,7 +37,7 @@
     {% pattern banners/homebanner data=page %}
     {% endif %}
   </header>
-  <main role="main" id="main" tabindex="0">
+  <main role="main" id="main" tabindex="-1">
     {{content}}
   </main>
   {% pattern footer/footer %}

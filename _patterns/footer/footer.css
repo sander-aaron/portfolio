@@ -2,7 +2,7 @@ footer {
   background-color: var(--color-primary-light);
 }
 
-li {
+.footer li {
   display: inline-block;
   border-radius: 20px;
 }

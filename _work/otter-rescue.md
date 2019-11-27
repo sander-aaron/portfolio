@@ -8,7 +8,7 @@ sitetitle: "Freedom Otter Rescue · Aaron Sander"
 metatitle: "Freedom Otter Rescue · Aaron Sander · Web Development Portfolio"
 metaurl: "https://aaronsander.ca/work/otter-rescue/"
 metaimg: "otter_setup.png"
-metadesription: "Provide an update for an existing animal rescue website to revitalize the site."
+metadescription: "Provide an update for an existing animal rescue website to revitalize the site."
 show_content_banner: true
 overview: |
   Provide an “update” for the website for the Freedom Dog Rescue. We were tasked with finding a “bad” website or one in need of a revamp and update it. As well, we were told to be creative with our animal picks.

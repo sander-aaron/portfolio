@@ -6,7 +6,7 @@ sitetitle: "Beau's Bonbons · Aaron Sander"
 metatitle: "Beau's Bonbons · Aaron Sander · Web Development Portfolio"
 metaurl: "https://aaronsander.ca/work/case-study/"
 metaimg: "case_setup.png"
-metadesription: "A case study that looks into how to implement an innovative tech idea into a website to make it more efficient"
+metadescription: "A case study that looks into how to implement an innovative tech idea into a website to make it more efficient"
 show_content_banner: true
 overview: |
   This case study is to create an innovative technique for a Bonbon shop, giving the shop a new way to connect with their users/consumers while also giving the customer a unique experience that will stick in their mind and bring them back.
