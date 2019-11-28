@@ -33,3 +33,7 @@ li:hover a {
   background: url("../../images/logo_hover.png") no-repeat center center;
   background-size: cover;
 }
+
+.transparent {
+  opacity: 0;
+}
