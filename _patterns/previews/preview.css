@@ -2,6 +2,15 @@
   box-shadow: 4px 12px 10px 1px rgba(107, 98, 52, 0.75);
 }
 
+.preview-hover {
+  transition: all .25s ease-out;
+}
+
+.preview-hover:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 6px 6px 1px rgb(216, 212, 188);
+}
+
 .ecom-bg {
   background-image: url("../../images/first.svg");
   background-position: center center;

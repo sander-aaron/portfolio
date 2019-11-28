@@ -22,3 +22,14 @@ li:hover a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.logo {
+  background: url("../../images/logo.png") no-repeat center center;
+  background-size: cover;
+  transition: all .21s ease-out;
+}
+
+.logo:hover {
+  background: url("../../images/logo_hover.png") no-repeat center center;
+  background-size: cover;
+}
