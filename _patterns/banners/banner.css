@@ -1,3 +1,7 @@
+main {
+  outline-color: var(--color-yellow);
+}
+
 .banner {
   background-image: url("../images/bannerbg.svg");
   background-position: left center;
