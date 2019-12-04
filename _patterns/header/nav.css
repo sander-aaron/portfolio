@@ -35,5 +35,10 @@ li:hover a {
 }
 
 .transparent {
+  opacity: 1;
+}
+
+.transparent:hover {
+  transition: all .21s ease-out;
   opacity: 0;
 }
