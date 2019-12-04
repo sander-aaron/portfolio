@@ -27,6 +27,8 @@ patternbot:
       This is the layout to be used on every portfolio piece page. It will display all information about the portfolio piece once a project has been selected.
     morework: |
       This is the layout to be used on my miscellaneous artwork page. It shows off my other skills, not just my web dev skills.
+    404_layout: |
+      This is the layout to be used on my 404 page. It is just a simple layout with my nav and some seo stuff.
 collections:
   previews:
   work:
