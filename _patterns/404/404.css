@@ -1,0 +1,49 @@
+.graphic {
+  width: 100%;
+  background-image: url("../images/404-graphic.svg");
+  background-position: right bottom;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  height: 82vh;
+}
+
+.error {
+  font-weight: 900;
+  color: var(--color-yellow);
+  font-size: 4rem;
+}
+
+.error-title {
+  font-size: 2.5rem;
+  line-height: initial;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .graphic {
+    background-size: 100vw;
+    height: 83vh;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .graphic {
+    height: 86vh;
+  }
+
+  .error-title {
+    font-size: 3.5rem;
+    line-height: initial;
+  }
+
+  .error {
+    font-size: 5.5rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .graphic {
+    height: 90vh;
+  }
+}
