@@ -4,7 +4,7 @@
   background-position: right bottom;
   background-size: 500px;
   background-repeat: no-repeat;
-  height: 82vh;
+  height: 100vh;
 }
 
 .error {
@@ -22,18 +22,13 @@
 
   .graphic {
     background-size: 100vw;
-    height: 83vh;
   }
 }
 
 @media only screen and (min-width: 38em) {
 
-  .graphic {
-    height: 86vh;
-  }
-
   .error-title {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     line-height: initial;
   }
 
@@ -42,8 +37,14 @@
   }
 }
 
-@media only screen and (min-width: 60em) {
-  .graphic {
-    height: 90vh;
+@media only screen and (min-width: 38em) {
+
+  .error-title {
+    font-size: 3.2rem;
+    line-height: initial;
+  }
+
+  .error {
+    font-size: 5.5rem;
   }
 }

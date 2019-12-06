@@ -23,43 +23,5 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@aaronsander8">
 </head>
-<body>
-
-  <ul class="skip-links">
-    <li><a href="#main">Jump to main content</a></li>
-    <li><a href="#nav">Jump to navigation</a></li>
-  </ul>
-  <header role="banner" class="masthead" id="header">
-    {% pattern header/nav %}
-  </header>
-  <main role="main" id="main" tabindex="-1">
-    {{content}}
-  </main>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Aaron Sander's Portfolio",
-      "author": {
-        "@type": "Person",
-        "@id": "#aaronsander"
-      },
-      "description": "Aaron Sander's portfolio for web development and a few other things",
-      "image": "https://aaronsander.ca/images/me.png",
-      "url": "https://aaronsander.ca/#work",
-      "keywords": "Web, Responsive, CSS, Mobile, E-Commerce, shopping"
-    }
-  </script>
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "#aaronsander",
-      "name": "Aaron Sander",
-      "email": "hey@aaronsander.ca",
-      "url": "https://aaronsander.ca"
-    }
-  </script>
-</body>
+  {{content}}
 </html>

@@ -1,11 +1,49 @@
-<div class="graphic">
-  <h1 class="text-center error-title push"><strong class="error">404</strong><br>Have you lost your way?</h1>
-  <div class="text-center">
-    <a class="cont-a" href="/#work" aria-label="Go to the homepage">
-      <h4 class="mega push-0 gutter pad-t-1-2 pad-b-1-2 push-1-2 inline-block">Keep exploring my site</h4>
-      <div class="right-arrow inline-block">
-        <i class="icon i-24 arrows"><svg><use xlink:href="/images/arrows.svg#right-arrow" /></svg></i>
+<body class="graphic">
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner" class="masthead" id="header">
+    {% pattern header/nav %}
+  </header>
+  <main role="main" id="main" tabindex="-1">
+    <div>
+      <h1 class="text-center error-title push"><strong class="error">404</strong><br>Have you lost your way?</h1>
+      <div class="text-center">
+        <a class="cont-a" href="/#work" aria-label="Go to the homepage">
+          <h4 class="mega push-0 gutter pad-t-1-2 pad-b-1-2 push-1-2 inline-block">Keep exploring my site</h4>
+          <div class="right-arrow inline-block">
+            <i class="icon i-24 arrows"><svg><use xlink:href="/images/arrows.svg#right-arrow" /></svg></i>
+          </div>
+        </a>
       </div>
-    </a>
-  </div>
-</div>
+    </div>
+  </main>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Aaron Sander's Portfolio",
+      "author": {
+        "@type": "Person",
+        "@id": "#aaronsander"
+      },
+      "description": "Aaron Sander's portfolio for web development and a few other things",
+      "image": "https://aaronsander.ca/images/me.png",
+      "url": "https://aaronsander.ca/#work",
+      "keywords": "Web, Responsive, CSS, Mobile, E-Commerce, shopping"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "#aaronsander",
+      "name": "Aaron Sander",
+      "email": "hey@aaronsander.ca",
+      "url": "https://aaronsander.ca"
+    }
+  </script>
+</body>
